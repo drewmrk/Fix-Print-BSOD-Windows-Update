@@ -23,8 +23,8 @@ If ($version -eq 1803 -or $version -eq 1809 -or $version -eq 1909 -or $version -
 		wusa /uninstall /kb:5000802
 	}
 
-  echo "Restarting in 10 minutes..."
-  Start-Sleep -Seconds 600; Restart-Computer -Force
+  echo "Restarting in 15 minutes..."
+  Start-Sleep -Seconds 900; Restart-Computer -Force
 
 
 } else {
